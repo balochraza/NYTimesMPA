@@ -1,10 +1,17 @@
 # NYTimesMPA
-App to hit the NY Times Most Popular Articles API and:
+
 If Network is not available app show Toast message for check connection
+
+App to hit the NY Times Most Popular Articles API and:
+
 Shows details on item click from list.
+
 We'll are using the most viewed section of this API. http://api.nytimes.com/svc/mostpopular/v2/mostviewed/{section}/{period}.json?apikey= sample-key To test this API, For testAPI we used
+
 all-sections for the section path component in the URL
+
 7 for period
+
 We used MVC Design pattern and java generic approach to develop this application. 
 
 We are generating TestCase and Coverage report using two tools, you can opt out any one as per your connivance:
@@ -13,15 +20,12 @@ __. Espresso for Unit Test__
 
 __. Jacoco for Coverage Reports__ 
 
-__App Flow__
+# Screen Shots
 
-__Article List Screen__
+App screen has been add in ScreenShot folder of Project
 
-![alt text](https://github.com/balochraza/NYTimesMPA/blob/master/ScreenShots/Screenshot_1560956642.png)
 
-__Article Detail Screen__
 
-![alt text](https://github.com/balochraza/NYTimesMPA/blob/master/ScreenShots/Screenshot_1560956651.png)
 
 # Libraries
 
@@ -45,11 +49,15 @@ open from build/reports/coverage/index.html
 
 # Create new Coverage Report 
 1)Click on Gradle Icon from right Panel 
+
 2)Click run Gradle Task and write the command "createDebugAndroidTestCoverageReport" in command line.
 
 # Code Unit Test 
+
 Go to src/androidTest/java/com.nytarticlesmpa/Activities.
+
 Select MainActivityTest.java
+
 Press ctrl+shfit+R or right click on MainActivityTest.java and click on Run MainActivityTest
 
 
